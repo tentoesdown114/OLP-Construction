@@ -88,33 +88,11 @@ button {
   color: #fff;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  aspect-ratio: 1;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent-soft), var(--accent));
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-}
-
-.brand strong,
-.brand span {
+.brand-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
   display: block;
-}
-
-.brand strong {
-  font-size: 0.96rem;
-}
-
-.brand span {
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.72);
 }
 
 .main-nav {
@@ -394,6 +372,20 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 22px;
+}
+
+.footer-wrap > div {
+  width: 100%;
+}
+
+.social-media-block {
+  margin-top: 18px;
+}
+
+.social-media-image {
+  max-width: 220px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 900px) {
